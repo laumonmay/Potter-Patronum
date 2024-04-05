@@ -1,0 +1,25 @@
+@import 'core/reset';
+@import 'core/variables';
+@import 'styles/header.scss';
+@import 'styles/filters.scss';
+@import 'styles/gallery.scss';
+@import 'styles/detail.scss';
+
+
+
+:root{
+    background: var(--bg-web);
+    font-size: 62.5%;
+
+}
+.app{
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    border: ridge var(--frame-web) 3px;
+    margin: 18px 9px 18px 9px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
